@@ -1,0 +1,123 @@
+{
+  "title": "Lakers scoring per salary dollar",
+  "source": "https://raw.githubusercontent.com/AggieSportsAnalytics/NBASalaryAnalysis/main/LakersMergedData.csv",
+  "sha256": "9accbff4ce93dd6fe8316cf0e0a49d5caacde6655479b7feeb8f13c310f27723",
+  "metrics": {
+    "input_players": 18,
+    "eligible_players": 10,
+    "excluded_players": 8,
+    "season": "2023\u201324 salary / partial-season stats snapshot; exact cutoff unverified"
+  },
+  "players": [
+    {
+      "player": "Cam Reddish",
+      "salary": 2165000.0,
+      "games": 35,
+      "minutes_per_game": 23.3,
+      "points_per_game": 6.7,
+      "rebounds_per_game": 2.4,
+      "assists_per_game": 1.3,
+      "points_per_salary_million": 3.095
+    },
+    {
+      "player": "Max Christie",
+      "salary": 1719864.0,
+      "games": 43,
+      "minutes_per_game": 17.2,
+      "points_per_game": 5.0,
+      "rebounds_per_game": 2.6,
+      "assists_per_game": 1.0,
+      "points_per_salary_million": 2.907
+    },
+    {
+      "player": "Christian Wood",
+      "salary": 2709849.0,
+      "games": 50,
+      "minutes_per_game": 17.4,
+      "points_per_game": 6.9,
+      "rebounds_per_game": 5.1,
+      "assists_per_game": 1.0,
+      "points_per_salary_million": 2.546
+    },
+    {
+      "player": "Taurean Prince",
+      "salary": 4516000.0,
+      "games": 53,
+      "minutes_per_game": 30.1,
+      "points_per_game": 9.6,
+      "rebounds_per_game": 3.0,
+      "assists_per_game": 1.7,
+      "points_per_salary_million": 2.126
+    },
+    {
+      "player": "Austin Reaves",
+      "salary": 12015150.0,
+      "games": 56,
+      "minutes_per_game": 31.1,
+      "points_per_game": 15.8,
+      "rebounds_per_game": 3.9,
+      "assists_per_game": 5.4,
+      "points_per_salary_million": 1.315
+    },
+    {
+      "player": "Jarred Vanderbilt",
+      "salary": 4698000.0,
+      "games": 29,
+      "minutes_per_game": 20.0,
+      "points_per_game": 5.2,
+      "rebounds_per_game": 4.8,
+      "assists_per_game": 1.2,
+      "points_per_salary_million": 1.107
+    },
+    {
+      "player": "D'Angelo Russell",
+      "salary": 17307693.0,
+      "games": 51,
+      "minutes_per_game": 31.2,
+      "points_per_game": 17.5,
+      "rebounds_per_game": 2.8,
+      "assists_per_game": 6.3,
+      "points_per_salary_million": 1.011
+    },
+    {
+      "player": "Rui Hachimura",
+      "salary": 15740741.0,
+      "games": 42,
+      "minutes_per_game": 24.2,
+      "points_per_game": 12.0,
+      "rebounds_per_game": 3.7,
+      "assists_per_game": 1.1,
+      "points_per_salary_million": 0.762
+    },
+    {
+      "player": "Anthony Davis",
+      "salary": 40600080.0,
+      "games": 52,
+      "minutes_per_game": 35.7,
+      "points_per_game": 24.9,
+      "rebounds_per_game": 12.2,
+      "assists_per_game": 3.8,
+      "points_per_salary_million": 0.613
+    },
+    {
+      "player": "LeBron James",
+      "salary": 47607350.0,
+      "games": 49,
+      "minutes_per_game": 34.9,
+      "points_per_game": 24.8,
+      "rebounds_per_game": 7.2,
+      "assists_per_game": 7.8,
+      "points_per_salary_million": 0.521
+    }
+  ],
+  "excluded": [
+    "Gabe Vincent",
+    "Jalen Hood-Schifino",
+    "Jaxson Hayes",
+    "Spencer Dinwiddie",
+    "Maxwell Lewis",
+    "Skylar Mays",
+    "Dylan Windler",
+    "Colin Castleton"
+  ]
+}

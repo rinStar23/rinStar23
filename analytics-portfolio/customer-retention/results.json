@@ -1,0 +1,1716 @@
+{
+  "title": "Customer cohort retention",
+  "source": "https://raw.githubusercontent.com/leonism/sample-superstore/master/data/superstore.csv",
+  "metrics": {
+    "customers": 793,
+    "cohorts": 42,
+    "definition": "Purchase in exact month N after first observed purchase; not cumulative repeat rate.",
+    "observation_end": "2018-12-30"
+  },
+  "summary": [
+    {
+      "month_offset": 0,
+      "eligible_customers": 793,
+      "active_customers": 793,
+      "retention_pct": 100.0
+    },
+    {
+      "month_offset": 1,
+      "eligible_customers": 793,
+      "active_customers": 79,
+      "retention_pct": 9.96
+    },
+    {
+      "month_offset": 2,
+      "eligible_customers": 792,
+      "active_customers": 61,
+      "retention_pct": 7.7
+    },
+    {
+      "month_offset": 3,
+      "eligible_customers": 790,
+      "active_customers": 77,
+      "retention_pct": 9.75
+    },
+    {
+      "month_offset": 6,
+      "eligible_customers": 787,
+      "active_customers": 85,
+      "retention_pct": 10.8
+    },
+    {
+      "month_offset": 12,
+      "eligible_customers": 782,
+      "active_customers": 91,
+      "retention_pct": 11.64
+    }
+  ],
+  "cohorts": [
+    {
+      "cohort": "2015-01",
+      "month_offset": 0,
+      "cohort_size": 32,
+      "active_customers": 32,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-01",
+      "month_offset": 1,
+      "cohort_size": 32,
+      "active_customers": 3,
+      "retention_pct": 9.38
+    },
+    {
+      "cohort": "2015-01",
+      "month_offset": 2,
+      "cohort_size": 32,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2015-01",
+      "month_offset": 3,
+      "cohort_size": 32,
+      "active_customers": 2,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort": "2015-01",
+      "month_offset": 6,
+      "cohort_size": 32,
+      "active_customers": 2,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort": "2015-01",
+      "month_offset": 12,
+      "cohort_size": 32,
+      "active_customers": 3,
+      "retention_pct": 9.38
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 0,
+      "cohort_size": 24,
+      "active_customers": 24,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 1,
+      "cohort_size": 24,
+      "active_customers": 4,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 2,
+      "cohort_size": 24,
+      "active_customers": 2,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 3,
+      "cohort_size": 24,
+      "active_customers": 1,
+      "retention_pct": 4.17
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 6,
+      "cohort_size": 24,
+      "active_customers": 2,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2015-02",
+      "month_offset": 12,
+      "cohort_size": 24,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 0,
+      "cohort_size": 65,
+      "active_customers": 65,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 1,
+      "cohort_size": 65,
+      "active_customers": 4,
+      "retention_pct": 6.15
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 2,
+      "cohort_size": 65,
+      "active_customers": 2,
+      "retention_pct": 3.08
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 3,
+      "cohort_size": 65,
+      "active_customers": 8,
+      "retention_pct": 12.31
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 6,
+      "cohort_size": 65,
+      "active_customers": 7,
+      "retention_pct": 10.77
+    },
+    {
+      "cohort": "2015-03",
+      "month_offset": 12,
+      "cohort_size": 65,
+      "active_customers": 6,
+      "retention_pct": 9.23
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 0,
+      "cohort_size": 56,
+      "active_customers": 56,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 1,
+      "cohort_size": 56,
+      "active_customers": 6,
+      "retention_pct": 10.71
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 2,
+      "cohort_size": 56,
+      "active_customers": 2,
+      "retention_pct": 3.57
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 3,
+      "cohort_size": 56,
+      "active_customers": 4,
+      "retention_pct": 7.14
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 6,
+      "cohort_size": 56,
+      "active_customers": 6,
+      "retention_pct": 10.71
+    },
+    {
+      "cohort": "2015-04",
+      "month_offset": 12,
+      "cohort_size": 56,
+      "active_customers": 8,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 0,
+      "cohort_size": 56,
+      "active_customers": 56,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 1,
+      "cohort_size": 56,
+      "active_customers": 5,
+      "retention_pct": 8.93
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 2,
+      "cohort_size": 56,
+      "active_customers": 5,
+      "retention_pct": 8.93
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 3,
+      "cohort_size": 56,
+      "active_customers": 4,
+      "retention_pct": 7.14
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 6,
+      "cohort_size": 56,
+      "active_customers": 12,
+      "retention_pct": 21.43
+    },
+    {
+      "cohort": "2015-05",
+      "month_offset": 12,
+      "cohort_size": 56,
+      "active_customers": 2,
+      "retention_pct": 3.57
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 0,
+      "cohort_size": 48,
+      "active_customers": 48,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 1,
+      "cohort_size": 48,
+      "active_customers": 1,
+      "retention_pct": 2.08
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 2,
+      "cohort_size": 48,
+      "active_customers": 2,
+      "retention_pct": 4.17
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 3,
+      "cohort_size": 48,
+      "active_customers": 4,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 6,
+      "cohort_size": 48,
+      "active_customers": 8,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2015-06",
+      "month_offset": 12,
+      "cohort_size": 48,
+      "active_customers": 3,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 0,
+      "cohort_size": 44,
+      "active_customers": 44,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 1,
+      "cohort_size": 44,
+      "active_customers": 6,
+      "retention_pct": 13.64
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 2,
+      "cohort_size": 44,
+      "active_customers": 5,
+      "retention_pct": 11.36
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 3,
+      "cohort_size": 44,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 6,
+      "cohort_size": 44,
+      "active_customers": 2,
+      "retention_pct": 4.55
+    },
+    {
+      "cohort": "2015-07",
+      "month_offset": 12,
+      "cohort_size": 44,
+      "active_customers": 5,
+      "retention_pct": 11.36
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 0,
+      "cohort_size": 49,
+      "active_customers": 49,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 1,
+      "cohort_size": 49,
+      "active_customers": 8,
+      "retention_pct": 16.33
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 2,
+      "cohort_size": 49,
+      "active_customers": 3,
+      "retention_pct": 6.12
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 3,
+      "cohort_size": 49,
+      "active_customers": 11,
+      "retention_pct": 22.45
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 6,
+      "cohort_size": 49,
+      "active_customers": 4,
+      "retention_pct": 8.16
+    },
+    {
+      "cohort": "2015-08",
+      "month_offset": 12,
+      "cohort_size": 49,
+      "active_customers": 2,
+      "retention_pct": 4.08
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 0,
+      "cohort_size": 68,
+      "active_customers": 68,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 1,
+      "cohort_size": 68,
+      "active_customers": 9,
+      "retention_pct": 13.24
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 2,
+      "cohort_size": 68,
+      "active_customers": 9,
+      "retention_pct": 13.24
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 3,
+      "cohort_size": 68,
+      "active_customers": 11,
+      "retention_pct": 16.18
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 6,
+      "cohort_size": 68,
+      "active_customers": 9,
+      "retention_pct": 13.24
+    },
+    {
+      "cohort": "2015-09",
+      "month_offset": 12,
+      "cohort_size": 68,
+      "active_customers": 12,
+      "retention_pct": 17.65
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 0,
+      "cohort_size": 42,
+      "active_customers": 42,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 1,
+      "cohort_size": 42,
+      "active_customers": 3,
+      "retention_pct": 7.14
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 2,
+      "cohort_size": 42,
+      "active_customers": 5,
+      "retention_pct": 11.9
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 3,
+      "cohort_size": 42,
+      "active_customers": 1,
+      "retention_pct": 2.38
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 6,
+      "cohort_size": 42,
+      "active_customers": 5,
+      "retention_pct": 11.9
+    },
+    {
+      "cohort": "2015-10",
+      "month_offset": 12,
+      "cohort_size": 42,
+      "active_customers": 4,
+      "retention_pct": 9.52
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 0,
+      "cohort_size": 62,
+      "active_customers": 62,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 1,
+      "cohort_size": 62,
+      "active_customers": 15,
+      "retention_pct": 24.19
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 2,
+      "cohort_size": 62,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 3,
+      "cohort_size": 62,
+      "active_customers": 3,
+      "retention_pct": 4.84
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 6,
+      "cohort_size": 62,
+      "active_customers": 2,
+      "retention_pct": 3.23
+    },
+    {
+      "cohort": "2015-11",
+      "month_offset": 12,
+      "cohort_size": 62,
+      "active_customers": 13,
+      "retention_pct": 20.97
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 0,
+      "cohort_size": 49,
+      "active_customers": 49,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 1,
+      "cohort_size": 49,
+      "active_customers": 3,
+      "retention_pct": 6.12
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 2,
+      "cohort_size": 49,
+      "active_customers": 4,
+      "retention_pct": 8.16
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 3,
+      "cohort_size": 49,
+      "active_customers": 4,
+      "retention_pct": 8.16
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 6,
+      "cohort_size": 49,
+      "active_customers": 4,
+      "retention_pct": 8.16
+    },
+    {
+      "cohort": "2015-12",
+      "month_offset": 12,
+      "cohort_size": 49,
+      "active_customers": 9,
+      "retention_pct": 18.37
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 0,
+      "cohort_size": 7,
+      "active_customers": 7,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 1,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 2,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 3,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 6,
+      "cohort_size": 7,
+      "active_customers": 2,
+      "retention_pct": 28.57
+    },
+    {
+      "cohort": "2016-01",
+      "month_offset": 12,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 0,
+      "cohort_size": 7,
+      "active_customers": 7,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 1,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 2,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 3,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 6,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-02",
+      "month_offset": 12,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 0,
+      "cohort_size": 18,
+      "active_customers": 18,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 1,
+      "cohort_size": 18,
+      "active_customers": 1,
+      "retention_pct": 5.56
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 2,
+      "cohort_size": 18,
+      "active_customers": 1,
+      "retention_pct": 5.56
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 3,
+      "cohort_size": 18,
+      "active_customers": 3,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 6,
+      "cohort_size": 18,
+      "active_customers": 3,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2016-03",
+      "month_offset": 12,
+      "cohort_size": 18,
+      "active_customers": 1,
+      "retention_pct": 5.56
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 0,
+      "cohort_size": 12,
+      "active_customers": 12,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 1,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 2,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 3,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 6,
+      "cohort_size": 12,
+      "active_customers": 3,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2016-04",
+      "month_offset": 12,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 0,
+      "cohort_size": 12,
+      "active_customers": 12,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 1,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 2,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 3,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 6,
+      "cohort_size": 12,
+      "active_customers": 2,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2016-05",
+      "month_offset": 12,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 0,
+      "cohort_size": 12,
+      "active_customers": 12,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 1,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 2,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 3,
+      "cohort_size": 12,
+      "active_customers": 5,
+      "retention_pct": 41.67
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 6,
+      "cohort_size": 12,
+      "active_customers": 2,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2016-06",
+      "month_offset": 12,
+      "cohort_size": 12,
+      "active_customers": 5,
+      "retention_pct": 41.67
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 0,
+      "cohort_size": 8,
+      "active_customers": 8,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 1,
+      "cohort_size": 8,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 2,
+      "cohort_size": 8,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 3,
+      "cohort_size": 8,
+      "active_customers": 2,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 6,
+      "cohort_size": 8,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-07",
+      "month_offset": 12,
+      "cohort_size": 8,
+      "active_customers": 1,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 0,
+      "cohort_size": 12,
+      "active_customers": 12,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 1,
+      "cohort_size": 12,
+      "active_customers": 3,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 2,
+      "cohort_size": 12,
+      "active_customers": 1,
+      "retention_pct": 8.33
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 3,
+      "cohort_size": 12,
+      "active_customers": 2,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 6,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-08",
+      "month_offset": 12,
+      "cohort_size": 12,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 0,
+      "cohort_size": 16,
+      "active_customers": 16,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 1,
+      "cohort_size": 16,
+      "active_customers": 1,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 2,
+      "cohort_size": 16,
+      "active_customers": 3,
+      "retention_pct": 18.75
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 3,
+      "cohort_size": 16,
+      "active_customers": 1,
+      "retention_pct": 6.25
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 6,
+      "cohort_size": 16,
+      "active_customers": 3,
+      "retention_pct": 18.75
+    },
+    {
+      "cohort": "2016-09",
+      "month_offset": 12,
+      "cohort_size": 16,
+      "active_customers": 3,
+      "retention_pct": 18.75
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 0,
+      "cohort_size": 9,
+      "active_customers": 9,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 1,
+      "cohort_size": 9,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 2,
+      "cohort_size": 9,
+      "active_customers": 4,
+      "retention_pct": 44.44
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 3,
+      "cohort_size": 9,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 6,
+      "cohort_size": 9,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-10",
+      "month_offset": 12,
+      "cohort_size": 9,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 0,
+      "cohort_size": 10,
+      "active_customers": 10,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 1,
+      "cohort_size": 10,
+      "active_customers": 1,
+      "retention_pct": 10.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 2,
+      "cohort_size": 10,
+      "active_customers": 1,
+      "retention_pct": 10.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 3,
+      "cohort_size": 10,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 6,
+      "cohort_size": 10,
+      "active_customers": 1,
+      "retention_pct": 10.0
+    },
+    {
+      "cohort": "2016-11",
+      "month_offset": 12,
+      "cohort_size": 10,
+      "active_customers": 1,
+      "retention_pct": 10.0
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 0,
+      "cohort_size": 13,
+      "active_customers": 13,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 1,
+      "cohort_size": 13,
+      "active_customers": 1,
+      "retention_pct": 7.69
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 2,
+      "cohort_size": 13,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 3,
+      "cohort_size": 13,
+      "active_customers": 1,
+      "retention_pct": 7.69
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 6,
+      "cohort_size": 13,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2016-12",
+      "month_offset": 12,
+      "cohort_size": 13,
+      "active_customers": 1,
+      "retention_pct": 7.69
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 0,
+      "cohort_size": 6,
+      "active_customers": 6,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 1,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 2,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 3,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 6,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-01",
+      "month_offset": 12,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 0,
+      "cohort_size": 2,
+      "active_customers": 2,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 1,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 2,
+      "cohort_size": 2,
+      "active_customers": 1,
+      "retention_pct": 50.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 3,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 6,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-02",
+      "month_offset": 12,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 0,
+      "cohort_size": 6,
+      "active_customers": 6,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 1,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 2,
+      "cohort_size": 6,
+      "active_customers": 3,
+      "retention_pct": 50.0
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 3,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 6,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-03",
+      "month_offset": 12,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 0,
+      "cohort_size": 7,
+      "active_customers": 7,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 1,
+      "cohort_size": 7,
+      "active_customers": 2,
+      "retention_pct": 28.57
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 2,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 3,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 6,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-04",
+      "month_offset": 12,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 0,
+      "cohort_size": 7,
+      "active_customers": 7,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 1,
+      "cohort_size": 7,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 2,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 3,
+      "cohort_size": 7,
+      "active_customers": 2,
+      "retention_pct": 28.57
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 6,
+      "cohort_size": 7,
+      "active_customers": 2,
+      "retention_pct": 28.57
+    },
+    {
+      "cohort": "2017-05",
+      "month_offset": 12,
+      "cohort_size": 7,
+      "active_customers": 1,
+      "retention_pct": 14.29
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 0,
+      "cohort_size": 8,
+      "active_customers": 8,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 1,
+      "cohort_size": 8,
+      "active_customers": 1,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 2,
+      "cohort_size": 8,
+      "active_customers": 2,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 3,
+      "cohort_size": 8,
+      "active_customers": 3,
+      "retention_pct": 37.5
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 6,
+      "cohort_size": 8,
+      "active_customers": 1,
+      "retention_pct": 12.5
+    },
+    {
+      "cohort": "2017-06",
+      "month_offset": 12,
+      "cohort_size": 8,
+      "active_customers": 2,
+      "retention_pct": 25.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 0,
+      "cohort_size": 2,
+      "active_customers": 2,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 1,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 2,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 3,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 6,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-07",
+      "month_offset": 12,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 0,
+      "cohort_size": 4,
+      "active_customers": 4,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 1,
+      "cohort_size": 4,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 2,
+      "cohort_size": 4,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 3,
+      "cohort_size": 4,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 6,
+      "cohort_size": 4,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-08",
+      "month_offset": 12,
+      "cohort_size": 4,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 0,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 1,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 2,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 3,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 6,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-10",
+      "month_offset": 12,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 0,
+      "cohort_size": 6,
+      "active_customers": 6,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 1,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 2,
+      "cohort_size": 6,
+      "active_customers": 1,
+      "retention_pct": 16.67
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 3,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 6,
+      "cohort_size": 6,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-11",
+      "month_offset": 12,
+      "cohort_size": 6,
+      "active_customers": 2,
+      "retention_pct": 33.33
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 0,
+      "cohort_size": 2,
+      "active_customers": 2,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 1,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 2,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 3,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 6,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2017-12",
+      "month_offset": 12,
+      "cohort_size": 2,
+      "active_customers": 1,
+      "retention_pct": 50.0
+    },
+    {
+      "cohort": "2018-03",
+      "month_offset": 0,
+      "cohort_size": 3,
+      "active_customers": 3,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-03",
+      "month_offset": 1,
+      "cohort_size": 3,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-03",
+      "month_offset": 2,
+      "cohort_size": 3,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-03",
+      "month_offset": 3,
+      "cohort_size": 3,
+      "active_customers": 1,
+      "retention_pct": 33.33
+    },
+    {
+      "cohort": "2018-03",
+      "month_offset": 6,
+      "cohort_size": 3,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-04",
+      "month_offset": 0,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-04",
+      "month_offset": 1,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-04",
+      "month_offset": 2,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-04",
+      "month_offset": 3,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-04",
+      "month_offset": 6,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-06",
+      "month_offset": 0,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-06",
+      "month_offset": 1,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-06",
+      "month_offset": 2,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-06",
+      "month_offset": 3,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-06",
+      "month_offset": 6,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-07",
+      "month_offset": 0,
+      "cohort_size": 2,
+      "active_customers": 2,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-07",
+      "month_offset": 1,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-07",
+      "month_offset": 2,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-07",
+      "month_offset": 3,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-09",
+      "month_offset": 0,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-09",
+      "month_offset": 1,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-09",
+      "month_offset": 2,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-09",
+      "month_offset": 3,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-10",
+      "month_offset": 0,
+      "cohort_size": 2,
+      "active_customers": 2,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-10",
+      "month_offset": 1,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-10",
+      "month_offset": 2,
+      "cohort_size": 2,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    },
+    {
+      "cohort": "2018-11",
+      "month_offset": 0,
+      "cohort_size": 1,
+      "active_customers": 1,
+      "retention_pct": 100.0
+    },
+    {
+      "cohort": "2018-11",
+      "month_offset": 1,
+      "cohort_size": 1,
+      "active_customers": 0,
+      "retention_pct": 0.0
+    }
+  ]
+}
